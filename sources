@@ -22,5 +22,27 @@
 "ruleChapterName": "a@text",
 "ruleChapterUrl": "a@href"
 
-}
+},
+{
+    "bookSourceName": "笔趣阁",
+    "bookSourceUrl": "https://www.qu.la",
+    "ruleSearchUrl": "https://sou.xanbhx.com/search?siteid=qula&q=searchKey&method=get",
+    "ruleSearchList": "div.search-list>ul li:gt(0)",
+    "ruleSearchEncoder": "utf8",
+    "ruleSearchName": "span.s2 > a@text",
+    "ruleSearchNoteUrl": "span.s2 > a@href",
+    "ruleSearchAuthor": "span.s4@text",
+    "ruleSearchLastChapter": "span.s3 > a@text",
+    "ruleSearchLastChapterTime": "span.s6@text@(([0-9]{2}|[0-9]{1})/([0-9]{2}|[0-9]{1})/([0-9]{3}[1-9]|[0-9]{2}[1-9][0-9]{1}|[0-9]{1}[1-9][0-9]{2}|[1-9][0-9]{3})\\s([0-9]{2}|[0-9]{1}):([0-5][0-9]):([0-5][0-9]))",
+    "ruleBookUrlPattern": "https://www.qu.la/book",
+    "ruleIntroduce": "#intro@text",
+    "ruleBookAuthor": "#info > p:nth-child(2)@text@(?<=：)[\\S\\s]+",
+    "ruleCoverUrl": "#fmimg > img@href",
+    "ruleBookName": "#info > h1@text",
+    "ruleBookLastChapter": "#info > p:nth-child(5) > a@text",
+    "ruleChapterLastTime": "#info > p:nth-child(4)@text",
+    "ruleChapterList": "#list > dl > dd",
+    "ruleChapterName": "a@text",
+    "ruleChapterUrl": "a@href"
+  }
 ]
