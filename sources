@@ -1,4 +1,26 @@
+[
 {
-title: "风雨",
-name: "凡人"
+  "bookSourceName": "风雨",
+  "bookSourceUrl": "https://www.44pq.cc",
+  "ruleSearchUrl":"https://www.44pq.cc/modules/article/search.php?searchkey=searchKey&s=12875153389361303253&method=get&page=1",
+  "ruleSearchList": "div.details div.item-pic",
+  "ruleSearchEncoder": "gbk",
+  "ruleSearchName": "h3 > a@text",
+  "ruleSearchNoteUrl": "h3 > a@href",
+  "ruleSearchAuthor": "p:eq(2)>i:eq(0)@text",
+  "ruleSearchCoverUrl": "a > img@src",
+  "ruleSearchLastChapter": "p:eq(3) > a@text",
+  "ruleSearchLastChapterTime": "p:eq(3) > i@text",
+  "ruleBookUrlPattern": "https://www.44pq.cc/kan",
+  "ruleIntroduce": "body > div.container > div.bookinfo > div.panel-intro > p@text",
+"ruleBookAuthor": "body > div.container > div.bookinfo > div.panel-intro > div > span:nth-child(1) > a@text",
+"ruleCoverUrl": "body > div.container > div.bookinfo > div.pic > img@src",
+"ruleBookName": "body > div.container > div.bookinfo > div.panel-intro > h1@text",
+"ruleBookLastChapter": "body > div.container > div.bookinfo > div.panel-intro > div > span:nth-child(3) > a@text",
+"ruleChapterLastTime": "body > div.container > div.bookinfo > div.panel-intro > div > span:nth-child(3)@text@((([0-9]{3}[1-9]|[0-9]{2}[1-9][0-9]{1}|[0-9]{1}[1-9][0-9]{2}|[1-9][0-9]{3})-(((0[13578]|1[02])-(0[1-9]|[12][0-9]|3[01]))|((0[469]|11)-(0[1-9]|[12][0-9]|30))|(02-(0[1-9]|[1][0-9]|2[0-8]))))|((([0-9]{2})(0[48]|[2468][048]|[13579][26])|((0[48]|[2468][048]|[3579][26])00))-02-29))\\s([0-1][0-9]|2[0-3]|[0-9]):([0-5][0-9])",
+"ruleChapterList": "body > div.container > div.main > div > dl dd",
+"ruleChapterName": "a@text",
+"ruleChapterUrl": "a@href"
+
 }
+]
