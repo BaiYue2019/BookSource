@@ -26,7 +26,7 @@
   "ruleFindList": "body > div.container > div.content > div > div.details.list-type > ul > li",
   "ruleFindBookName": "span.s2 > a@text",
   "ruleFindBookUrl": "span.s2 > a@href",
-  "ruleFindBookAuthor": "span.s3 > a@text",
+  "ruleFindBookAuthor": "span.s3@text",
   "ruleFindBookLastChapterName": "span.s2 > i > a@text",
   "ruleFindBookLastChapterUpdate": "span.s4@text"
 
