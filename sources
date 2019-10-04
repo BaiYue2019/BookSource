@@ -2,6 +2,7 @@
 {
   "bookSourceName": "风雨",
   "bookSourceUrl": "https://www.44pq.cc",
+  "ruleEnable": 1,
   "ruleSearchUrl":"https://www.44pq.cc/modules/article/search.php?searchkey=searchKey&s=12875153389361303253&method=get&page=1",
   "ruleSearchList": "div.details div.item-pic",
   "ruleSearchEncoder": "gbk",
@@ -33,6 +34,7 @@
 },
 {
     "bookSourceName": "笔趣阁",
+    "ruleEnable": 1,
     "bookSourceUrl": "https://www.qu.la",
     "ruleSearchUrl": "https://sou.xanbhx.com/search?siteid=qula&q=searchKey&method=get",
     "ruleSearchList": "div.search-list>ul li:gt(0)",
