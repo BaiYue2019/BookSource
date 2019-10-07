@@ -23,6 +23,7 @@
   "ruleChapterName": "a@text",
   "ruleChapterUrl": "a@href",
   "ruleBookContent": "#contents",
+  "ruleChapterListUrl": "#content > dd:nth-child(2) > div:nth-child(2) > p > a@href",
   "ruleFindUrl": "玄幻小说::https://www.siluke.org/fenlei_1/",
   "ruleFindList": "#content > dd:nth-child(2) > table > tbody > tr",
   "ruleFindBookName": "td:nth-child(1) > a@text",
