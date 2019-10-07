@@ -24,12 +24,12 @@
   "ruleChapterUrl": "a@href",
   "ruleBookContent": "#contents",
   "ruleFindUrl": "最新入库::https://www.44pq.cc/postdate-findPage.html&&日点击榜::https://www.44pq.cc/dayvisit-findPage.html&&周点击榜::https://www.fengyu.cc/weekvisit-1.html&&月点击榜::https://www.fengyu.cc/monthvisit-1.html&&总点击榜::https://www.fengyu.cc/allvisit-1.html",
-  "ruleFindList": "body > div.container > div.content > div > div.details.list-type > ul > li",
-  "ruleFindBookName": "span.s2 > a@text",
-  "ruleFindBookUrl": "span.s2 > a@href",
-  "ruleFindBookAuthor": "span.s3@text",
-  "ruleFindBookLastChapterName": "span.s2 > i > a@text",
-  "ruleFindBookLastChapterUpdate": "span.s4@text"
+  "ruleFindList": "#content > dd:nth-child(2) > table > tbody > tr",
+  "ruleFindBookName": "td:nth-child(1) > a@text",
+  "ruleFindBookUrl": "td:nth-child(1) > a@href",
+  "ruleFindBookAuthor": "td:nth-child(3)@text",
+  "ruleFindBookLastChapterName": "td:nth-child(2) > a@text",
+  "ruleFindBookLastChapterUpdate": "td:nth-child(5)@text"
 
 },
 {
