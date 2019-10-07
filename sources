@@ -23,7 +23,7 @@
   "ruleChapterName": "a@text",
   "ruleChapterUrl": "a@href",
   "ruleBookContent": "#contents",
-  "ruleFindUrl": "最新入库::https://www.44pq.cc/postdate-findPage.html&&日点击榜::https://www.44pq.cc/dayvisit-findPage.html&&周点击榜::https://www.fengyu.cc/weekvisit-1.html&&月点击榜::https://www.fengyu.cc/monthvisit-1.html&&总点击榜::https://www.fengyu.cc/allvisit-1.html",
+  "ruleFindUrl": "玄幻小说::https://www.siluke.org/fenlei_1/",
   "ruleFindList": "#content > dd:nth-child(2) > table > tbody > tr",
   "ruleFindBookName": "td:nth-child(1) > a@text",
   "ruleFindBookUrl": "td:nth-child(1) > a@href",
