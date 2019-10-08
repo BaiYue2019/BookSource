@@ -5,7 +5,7 @@
   "ruleEnable": 1,
   "ruleSearchUrl":"https://www.siluke.org/modules/article/search.php?searchkey=searchkey&s=18321153789267364909",
   "ruleSearchList": "#content > table > tbody > tr:gt(1)",
-  "ruleSearchEncoder": "utf8",
+  "ruleSearchEncoder": "gbk",
   "ruleSearchName": "td:nth-child(1) > a@text",
   "ruleSearchNoteUrl": "td:nth-child(1) > a@href",
   "ruleSearchAuthor": "td:nth-child(3)@text",
