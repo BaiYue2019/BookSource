@@ -25,7 +25,7 @@
   "ruleChapterUrl": "a@href",
   "ruleBookContent": "#contents",
   "ruleChapterListUrl": "#content > dd:nth-child(2) > div:nth-child(2) > p > a@href",
-  "ruleFindUrl": "玄幻小说::https://www.siluke.org/fenlei_1/",
+  "ruleFindUrl": "热门小说::https://www.siluke.org/top/monthvisit_1.html&&玄幻小说::https://www.siluke.org/fenlei_1/&&仙侠修真::https://www.siluke.org/fenlei_2/&&都市小说::https://www.siluke.org/fenlei_3/&&言情小说::https://www.siluke.org/fenlei_4/&&历史军事::https://www.siluke.org/fenlei_5/&&网游竞技::https://www.siluke.org/fenlei_6/&&科幻小说::https://www.siluke.org/fenlei_7/&&恐怖灵异::https://www.siluke.org/fenlei_8/&&完本小说::https://www.siluke.org/quanben/",
   "ruleFindList": "#content > dd:nth-child(2) > table > tbody > tr:gt(0)",
   "ruleFindBookName": "td:nth-child(1) > a@text",
   "ruleFindBookUrl": "td:nth-child(1) > a@href",
