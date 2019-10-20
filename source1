@@ -3,7 +3,7 @@
   "bookSourceName": "思路客",
   "bookSourceUrl": "https://www.siluke.org",
   "ruleEnable": 1,
-  "ruleSearchUrl":"https://www.siluke.org/modules/article/search.php?searchkey=searchKey&s=18321153789267364909char=gbk",
+  "ruleSearchUrl":"https://www.siluke.org/modules/article/search.php?searchkey=searchKey&s=18321153789267364909&char=gbk",
   "ruleSearchList": "#content > table > tbody > tr:gt(0)",
   "ruleSearchEncoder": "gbk",
   "ruleDocumentEncoder": "gbk",
