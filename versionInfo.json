@@ -6,5 +6,6 @@
   
   },
   "chapterADTime": "30",
-  "chapterADIntervalTime": "5"
+  "chapterADIntervalTime": "5",
+  "chapterIncre": "5"
 }
