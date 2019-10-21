@@ -1,0 +1,10 @@
+{
+  "version": {
+      "release": "2.3.4",
+      "forceUpdate": "1",
+      "info": "更新内容"
+  
+  },
+  "chapterADTime": "30",
+  "chapterADIntervalTime": "5"
+}
