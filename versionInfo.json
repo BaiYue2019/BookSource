@@ -1,11 +1,11 @@
 {
   "version": {
       "release": "2.3.4",
-      "forceUpdate": "1",
+      "forceUpdate": 1,
       "info": "更新内容"
   
   },
-  "chapterADTime": "30",
-  "chapterADIntervalTime": "5",
-  "chapterIncre": "5"
+  "chapterADTime": 30,
+  "chapterADIntervalTime": 5,
+  "chapterIncre": 5
 }
