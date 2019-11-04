@@ -3,16 +3,17 @@
   "bookSourceName": "思路客",
   "bookSourceUrl": "https://www.siluke.org",
   "ruleEnable": 1,
-  "ruleSearchUrl":"https://www.siluke.org/modules/article/search.php?searchkey=searchKey&s=18321153789267364909&char=gbk",
+  "ruleDocumentEncoder": "gbk",
+  
+  "ruleSearchUrl":"https://www.siluke.org/modules/article/search.php?searchkey=searchKey&s=18321153789267364909&char=gbk&method=get",
   "ruleSearchList": "#content > table > tbody > tr:gt(0)",
   "ruleSearchEncoder": "gbk",
-  "ruleDocumentEncoder": "gbk",
   "ruleSearchName": "td:nth-child(1) > a@text",
   "ruleSearchNoteUrl": "td:nth-child(1) > a@href",
-  "ruleSearchAuthor": "td:nth-child(3)@text",
-  "ruleSearchCoverUrl": "",
+  "ruleSearchAuthor": "td:nth-child(3)@text", 
   "ruleSearchLastChapter": "td:nth-child(2) > a@text",
   "ruleSearchLastChapterTime": "td:nth-child(5)@text",
+  
   "ruleBookUrlPattern": "https://www.siluke.org/book",
   "ruleIntroduce": "#content > dd.bookintro > p.intro@text",
   "ruleBookAuthor": "#at > tbody > tr:nth-child(1) > td:nth-child(4) > a@text",
@@ -25,13 +26,15 @@
   "ruleChapterUrl": "a@href",
   "ruleBookContent": "#contents",
   "ruleChapterListUrl": "#content > dd:nth-child(2) > div:nth-child(2) > p > a@href",
+  
   "ruleFindUrl": "热门小说::https://www.siluke.org/top/monthvisit_1.html&&玄幻小说::https://www.siluke.org/fenlei_1/&&仙侠修真::https://www.siluke.org/fenlei_2/&&都市小说::https://www.siluke.org/fenlei_3/&&言情小说::https://www.siluke.org/fenlei_4/&&历史军事::https://www.siluke.org/fenlei_5/&&网游竞技::https://www.siluke.org/fenlei_6/&&科幻小说::https://www.siluke.org/fenlei_7/&&恐怖灵异::https://www.siluke.org/fenlei_8/&&完本小说::https://www.siluke.org/quanben/",
   "ruleFindList": "#content > dd:nth-child(2) > table > tbody > tr:gt(0)",
   "ruleFindBookName": "td:nth-child(1) > a@text",
   "ruleFindBookUrl": "td:nth-child(1) > a@href",
   "ruleFindBookAuthor": "td:nth-child(3)@text",
   "ruleFindBookLastChapterName": "td:nth-child(2) > a@text",
-  "ruleFindBookLastChapterUpdate": "td:nth-child(5)@text"
+  "ruleFindBookLastChapterUpdate": "td:nth-child(5)@text",
+  "ruleFindNextUrl": "#pagelink > a.next@href"
 
 },
 {
@@ -59,13 +62,14 @@
   "ruleChapterName": "a@text",
   "ruleChapterUrl": "a@href",
   "ruleBookContent": "#BookText",
-  "ruleFindUrl": "最新入库::https://www.44pq.cc/postdate-findPage.html&&日点击榜::https://www.44pq.cc/dayvisit-findPage.html&&周点击榜::https://www.fengyu.cc/weekvisit-1.html&&月点击榜::https://www.fengyu.cc/monthvisit-1.html&&总点击榜::https://www.fengyu.cc/allvisit-1.html",
+  "ruleFindUrl": "最新入库::https://www.44pq.cc/postdate-1.html&&日点击榜::https://www.44pq.cc/dayvisit-1.html&&周点击榜::https://www.fengyu.cc/weekvisit-1.html&&月点击榜::https://www.fengyu.cc/monthvisit-1.html&&总点击榜::https://www.fengyu.cc/allvisit-1.html&&玄幻小说::https://www.44pq.cc/list/1-1.html&&仙侠修真::https://www.44pq.cc/list/2-1.html&&都市言情::https://www.44pq.cc/list/3-1.html",
   "ruleFindList": "body > div.container > div.content > div > div.details.list-type > ul > li",
   "ruleFindBookName": "span.s2 > a@text",
   "ruleFindBookUrl": "span.s2 > a@href",
   "ruleFindBookAuthor": "span.s3@text",
   "ruleFindBookLastChapterName": "span.s2 > i > a@text",
-  "ruleFindBookLastChapterUpdate": "span.s4@text"
+  "ruleFindBookLastChapterUpdate": "span.s4@text",
+  "ruleFindNextUrl": "#pagelink > a.next@href"
 
 },
 {
@@ -92,13 +96,46 @@
     "ruleChapterName": "a@text",
     "ruleChapterUrl": "a@href",
     "ruleBookContent": "#content",
-    "ruleFindUrl": "玄幻小说::https://www.qu.la/xuanhuanxiaoshuo/&&修真小说::https://www.qu.la/xiuzhenxiaoshuo/&&都市小说::https://www.qu.la/dushixiaoshuo/&&历史军事::https://www.qu.la/lishixiaoshuo/&&科幻小说::https://www.qu.la/lishixiaoshuo/&&",
+    "ruleFindUrl": "玄幻小说::https://www.qu.la/xuanhuanxiaoshuo/&&修真小说::https://www.qu.la/xiuzhenxiaoshuo/&&都市小说::https://www.qu.la/dushixiaoshuo/&&历史军事::https://www.qu.la/lishixiaoshuo/&&科幻小说::https://www.qu.la/kehuanxiaoshuo/&&网游小说::https://www.qu.la/wangyouxiaoshuo/&&女生小说::https://www.qu.la/nvshengxiaoshuo/",
     "ruleFindList": "#newscontent > div.l > ul > li",
     "ruleFindBookName": "span.s2 > a@text",
     "ruleFindBookUrl": "span.s2 > a@href",
     "ruleFindBookAuthor": "span.s4@text",
     "ruleFindBookLastChapterName": "span.s3 > a@text",
     "ruleFindBookLastChapterUpdate": "span.s5@text"
-  }
+  },
+{
+    "bookSourceName": "悟空书屋",
+    "ruleEnable": 1,
+    "ruleDocumentEncoder": "utf8",
+    "bookSourceUrl": "http://wksw.la/",
+    
+    "ruleSearchUrl": "http://wksw.la/modules/article/search.php?searchtype=articlename&searchkey=searchKey&method=get&char=gbk",
+    "ruleSearchList": "#content > table > tbody > tr:gt(0)",
+    "ruleSearchEncoder": "gbk",
+    "ruleSearchName": "td:nth-child(1) > a@text",
+    "ruleSearchNoteUrl": "td:nth-child(1) > a@href",
+    "ruleSearchAuthor": "td:nth-child(3)@text",
+    "ruleSearchLastChapter": "td:nth-child(2) > a@text",
+    "ruleSearchLastChapterTime": "td:nth-child(5)@text",
+    
+    "ruleBookName": "body > div.mread.row > div.mread.row > div > div:nth-child(2) > h2@text",
+    "ruleBookAuthor": "body > div.mread.row > div.mread.row > div > div:nth-child(2) > div:nth-child(2)@text##[^：?]*.(?=\\s类别)",
+    "ruleIntroduce": "body > div.mread.row > div.mread.row > div > div:nth-child(2) > div.gray@text",
+    "ruleCoverUrl": "body > div.mread.row > div.mread.row > div > div:nth-child(1) > img@src",
+    "ruleBookLastChapter": "body > div.mread.row > div.mread.row > div > div:nth-child(2) > div:nth-child(3) > a:nth-child(1)@text",
+    "ruleChapterList": "body > div.mread.row > div.mread.row > table > tbody td!2",
+      
+    "ruleChapterName": "a@text",
+    "ruleChapterUrl": "a@href",
+    "ruleBookContent": "#ccontent",
+      
+    "ruleFindUrl": "排行::http://wksw.la/allvisit-1.html&&玄幻魔法::http://wksw.la/sort/1-1.html&&武侠修真::http://wksw.la/sort/2-1.html&&都市言情::http://wksw.la/sort/3-1.html&&历史军事::http://wksw.la/sort/4-1.html&&侦探推理::http://wksw.la/sort/5-1.html&&网游动漫::http://wksw.la/sort/6-1.html&&科幻小说::http://wksw.la/sort/7-1.html&&恐怖灵异::http://wksw.la/sort/8-1.html&&其它类型::http://wksw.la/sort/9-1.html",
+    "ruleFindList": "#content > div.block > div.blockcontent > ul > li",
+    "ruleFindBookName": "p:nth-child(1) > a@text",
+    "ruleFindBookUrl": "p:nth-child(1) > a@href",
+    "ruleFindBookAuthor": "p:nth-child(3)@text##[^：?]*.(?=\\s)",
+    "ruleFindBookLastChapterName": "p:nth-child(2) > a@text",
+    "ruleFindNextUrl": "#pagelink > a.next@href"
+    }
 ]
-
