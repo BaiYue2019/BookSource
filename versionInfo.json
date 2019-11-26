@@ -1,11 +1,11 @@
 {
   "version": {
-      "release": "3.1.0",
-      "forceUpdate": 1,
-      "info": "有新的版本已经发布,请更新。"
+      "release": "3.1.2",
+      "forceUpdate": 0,
+      "info": "有新版本啦，删除了横幅广告，顺手解决了几个 bug,最近沉迷于中医,道友们保重。"
   
   },
-  "chapterADTime": 34,
-  "chapterADIntervalTime": 3,
+  "chapterADTime": 35,
+  "chapterADIntervalTime": 2,
   "chapterIncre": 10
 }
