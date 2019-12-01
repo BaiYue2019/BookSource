@@ -35,7 +35,7 @@
 {
   "bookSourceName": "思路客",
   "bookSourceUrl": "https://www.siluke.org",
-  "ruleEnable": 1,
+  "ruleEnable": 0,
   "ruleDocumentEncoder": "gbk",
   
   "ruleSearchUrl":"https://www.siluke.org/modules/article/search.php?searchkey=searchKey&s=18321153789267364909&char=gbk&method=get",
