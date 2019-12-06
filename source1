@@ -32,6 +32,7 @@
     "ruleFindBookUrl": "span.s2 > a@href",
     "ruleFindBookAuthor": "span.s4@text",
     "ruleFindBookLastChapterName": "span.s3 > a@text",
+    "ruleFindBookLastChapterUpdate": "span.s5@text",
     "ruleFindNextUrl": "#pagelink > a.next@href"
 },
 {
