@@ -1,7 +1,7 @@
 [
 {
     "bookSourceName": "69书吧",
-    "ruleEnable": 1,
+    "ruleEnable": 0,
     "ruleDocumentEncoder": "utf8",
     "bookSourceUrl": "https://www.69shu.org/",
     
