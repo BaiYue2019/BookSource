@@ -141,7 +141,7 @@
 
 },
 {
-    "bookSourceName": "笔趣阁",
+    "bookSourceName": "笔趣阁(新)",
     "ruleEnable": 1,
     "bookSourceUrl": "https://www.jx.la",
     "ruleSearchUrl": "https://sou.xanbhx.com/search?siteid=qula&q=searchKey&method=get&char=utf8",
