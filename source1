@@ -1,5 +1,40 @@
 [
 {
+    "bookSourceName": "69书吧",
+    "ruleEnable": 1,
+    "ruleDocumentEncoder": "utf8",
+    "bookSourceUrl": "https://www.69shu.org/",
+    
+    "ruleSearchUrl": "https://www.69shu.org/modules/article/search.php?searchkey=searchKey&method=get&char=gbk",
+    "ruleSearchList": "body > div:nth-child(3) > table > tbody > tr:gt(0)",
+    "ruleSearchEncoder": "gbk",
+    "ruleSearchName": "td:nth-child(1) > a@text",
+    "ruleSearchNoteUrl": "td:nth-child(1) > a@href",
+    "ruleSearchAuthor": "td:nth-child(3)@text",
+    "ruleSearchLastChapter": "td:nth-child(2) > a@text",
+    "ruleSearchLastChapterTime": "td:nth-child(5)@text",
+    "ruleBookUrlPattern": "https://www.69shu.org/book",
+    
+    "ruleBookName": "#info > h1@text",
+    "ruleBookAuthor": "#info > div.options > span:nth-child(1) > a@text",
+    "ruleIntroduce": "#info > div.bookinfo_intro@text",
+    "ruleCoverUrl": "#box-info > div.book_info > div.pic > img@src",
+    "ruleBookLastChapter": "#info > div.update > a@title",
+    "ruleChapterList": "body > div:nth-child(4) > div > ul li!2",
+    "ruleChapterLastTime": "#info > div.update@text##(([0-9]{3}[1-9]|[0-9]{2}[1-9][0-9]{1}|[0-9]{1}[1-9][0-9]{2}|[1-9][0-9]{3})-([0-9]{2}|[0-9]{1})-([0-9]{2}|[0-9]{1})\\s([0-5][0-9]):([0-5][0-9]))",
+    "ruleChapterName": "a@text",
+    "ruleChapterUrl": "a@href",
+    "ruleBookContent": "#htmlContent",
+      
+    "ruleFindUrl": "玄幻::https://www.69shu.org/fenlei/1_1/&&仙侠::https://www.69shu.org/fenlei/2_1/&&都市::https://www.69shu.org/fenlei/3_1/&&历史军事::https://www.69shu.org/fenlei/5_1/&&侦探推理::https://www.69shu.org/fenlei/8_1/&&网游动漫::https://www.69shu.org/fenlei/6_1/&&科幻小说::https://www.69shu.org/fenlei/7_1/",
+    "ruleFindList": "body > div.main > div > div:nth-child(2) > div.gengxin > div.news.section-cols > ul > li",
+    "ruleFindBookName": "span.s2 > a@text",
+    "ruleFindBookUrl": "span.s2 > a@href",
+    "ruleFindBookAuthor": "span.s4@text",
+    "ruleFindBookLastChapterName": "span.s3 > a@text",
+    "ruleFindNextUrl": "#pagelink > a.next@href"
+},
+{
   "bookSourceName": "新思路客",
   "ruleEnable": 1,
   "bookSourceUrl": "https://www.siluke5.com/",
@@ -139,7 +174,7 @@
   },
   {
     "bookSourceName": "笔趣阁",
-    "ruleEnable": 1,
+    "ruleEnable": 0,
     "bookSourceUrl": "https://www.qu.la",
     "ruleSearchUrl": "https://sou.xanbhx.com/search?siteid=qula&q=searchKey&method=get&char=utf8",
     "ruleSearchList": "div.search-list>ul li:gt(0)",
