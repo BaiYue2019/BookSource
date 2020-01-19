@@ -1,5 +1,5 @@
 {
-"version": 3,
+"version": 4,
 "rules": [
 {
     "bookSourceName": "69书吧",
@@ -95,7 +95,7 @@
   "ruleChapterName": "a@text",
   "ruleChapterUrl": "a@href",
   "ruleBookContent": "#BookText",
-  "ruleFindUrl": "最新入库::https://www.44pq.cc/postdate-1.html&&日点击榜::https://www.44pq.cc/dayvisit-1.html&&周点击榜::https://www.fengyu.cc/weekvisit-1.html&&月点击榜::https://www.fengyu.cc/monthvisit-1.html&&总点击榜::https://www.fengyu.cc/allvisit-1.html&&玄幻小说::https://www.44pq.cc/list/1-1.html&&仙侠修真::https://www.44pq.cc/list/2-1.html&&都市言情::https://www.44pq.cc/list/3-1.html",
+  "ruleFindUrl": "最新入库::https://www.44pq.cc/postdate-1.html&&日点击榜::https://www.44pq.cc/dayvisit-1.html&&周点击榜::https://www.44pq.cc/weekvisit-1.html&&月点击榜::https://www.44pq.cc/monthvisit-1.html&&总点击榜::https://www.44pq.cc/allvisit-1.html&&玄幻小说::https://www.44pq.cc/list/1-1.html&&仙侠修真::https://www.44pq.cc/list/2-1.html&&都市言情::https://www.44pq.cc/list/3-1.html",
   "ruleFindList": "body > div.container > div.content > div > div.details.list-type > ul > li",
   "ruleFindBookName": "span.s2 > a@text",
   "ruleFindBookUrl": "span.s2 > a@href",
