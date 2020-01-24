@@ -5,8 +5,8 @@
       "info": "修改部分源换源会失败的问题, 如果无法换源或换源闪退请升级。"
   
   },
-  "chapterADTime": 35,
-  "chapterADIntervalTime": 2,
+  "chapterADTime": 25,
+  "chapterADIntervalTime": 1,
   "chapterIncre": 10,
   "ruleVersion": 4,
   "requestType": 1
