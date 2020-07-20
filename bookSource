@@ -1,5 +1,5 @@
 {
-"version": 4,
+"version": 5,
 "rules": [
 {
     "bookSourceName": "69书吧",
@@ -17,8 +17,8 @@
     "ruleSearchLastChapterTime": "td:nth-child(5)@text",
     "ruleBookUrlPattern": "https://www.69shu.org/book",
     
-    "ruleBookName": "#info > h1@text",
-    "ruleBookAuthor": "#info > div.options > span:nth-child(1) > a@text",
+    "ruleBookName": "#info > h1@text##.*(?= /)",
+    "ruleBookAuthor": "#info > h1 > small > a@text",
     "ruleIntroduce": "#info > div.bookinfo_intro@text",
     "ruleCoverUrl": "#box-info > div.book_info > div.pic > img@src",
     "ruleBookLastChapter": "#info > div.update > a@title",
