@@ -1,5 +1,5 @@
 {
-"version": 6,
+"version": 7,
 "rules": [
 {
     "bookSourceName": "69书吧",
@@ -107,7 +107,7 @@
 },
 {
     "bookSourceName": "笔趣阁(新)",
-    "ruleEnable": 1,
+    "ruleEnable": 0,
     "bookSourceUrl": "https://www.jx.la",
     "ruleSearchUrl": "https://sou.xanbhx.com/search?siteid=qula&q=searchKey&method=get&char=utf8",
     "ruleSearchList": "div.search-list>ul li:gt(0)",
@@ -139,7 +139,7 @@
  }, 
 {
     "bookSourceName": "悟空书屋",
-    "ruleEnable": 1,
+    "ruleEnable": 0,
     "ruleDocumentEncoder": "utf8",
     "bookSourceUrl": "http://wksw.la/",
     
