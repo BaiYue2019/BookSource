@@ -1,5 +1,5 @@
 {
-"version": 8,
+"version": 9,
 "rules": [
 {
     "bookSourceName": "69书吧",
@@ -106,10 +106,10 @@
 
 },
 {
-    "bookSourceName": "笔趣阁(新)",
-    "ruleEnable": 0,
-    "bookSourceUrl": "https://www.jx.la",
-    "ruleSearchUrl": "https://sou.xanbhx.com/search?siteid=qula&q=searchKey&method=get&char=utf8",
+    "bookSourceName": "笔趣阁",
+    "ruleEnable": 1,
+    "bookSourceUrl": "https://www.xbiquge.cc/",
+    "ruleSearchUrl": "https://www.xbiquge.cc/modules/article/search.php?searchkey=searchKey&method=get&char=utf8",
     "ruleSearchList": "div.search-list>ul li:gt(0)",
     "ruleSearchEncoder": "utf8",
     "ruleDocumentEncoder": "utf8",
@@ -129,7 +129,7 @@
     "ruleChapterName": "a@text",
     "ruleChapterUrl": "a@href",
     "ruleBookContent": "#content",
-    "ruleFindUrl": "玄幻小说::https://www.jx.la/xuanhuanxiaoshuo/&&修真小说::https://www.jx.la/xiuzhenxiaoshuo/&&都市小说::https://www.jx.la/dushixiaoshuo/&&历史军事::https://www.jx.la/lishixiaoshuo/&&科幻小说::https://www.jx.la/kehuanxiaoshuo/&&网游小说::https://www.jx.la/wangyouxiaoshuo/&&女生小说::https://www.jx.la/nvshengxiaoshuo/",
+    "ruleFindUrl": "玄幻小说::https://www.xbiquge.cc/xuanhuanxiaoshuo/&&修真小说::https://www.xbiquge.cc/xiuzhenxiaoshuo/&&都市小说::https://www.xbiquge.cc/dushixiaoshuo/&&穿越小说::https://www.xbiquge.cc/chuanyuexiaoshuo/&&科幻小说::https://www.xbiquge.cc/kehuanxiaoshuo/&&网游小说::https://www.xbiquge.cc/wangyouxiaoshuo/&&完本小说::https://www.xbiquge.cc/wanben/",
     "ruleFindList": "#newscontent > div.l > ul > li",
     "ruleFindBookName": "span.s2 > a@text",
     "ruleFindBookUrl": "span.s2 > a@href",
