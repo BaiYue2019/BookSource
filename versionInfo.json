@@ -10,7 +10,7 @@
     "msg": "本app暂不更新, 请重新下载",
     "url": "http://itunes.apple.com/us/app/id1341590572",
     "show": 1,
-    "forceUpdata": 0
+    "forceUpdate": 0
   },
   "chapterADTime": 25,
   "chapterADIntervalTime": 1,
