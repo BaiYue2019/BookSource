@@ -16,5 +16,6 @@
   "chapterADIntervalTime": 1,
   "chapterIncre": 5,
   "ruleVersion":11,
-  "requestType": 1
+  "requestType": 1,
+  "splashADTime": 10
 }
