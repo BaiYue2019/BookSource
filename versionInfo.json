@@ -5,6 +5,12 @@
       "info": "修改部分源换源会失败的问题, 如果无法换源或换源闪退请升级。"
   
   },
+  "alter": {
+    "title": "提示",
+    "msg": "本app暂不更新, 请重新下载",
+    "url": "",
+    "show": 0
+  },
   "chapterADTime": 25,
   "chapterADIntervalTime": 1,
   "chapterIncre": 5,
