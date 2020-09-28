@@ -1,5 +1,5 @@
 {
-"version": 11,
+"version": 12,
 "rules": [
 {
     "bookSourceName": "69书吧",
@@ -29,7 +29,7 @@
     "ruleBookContent": "#htmlContent",
       
     "ruleFindUrl": "玄幻::https://www.69shu.org/fenlei/1_1/&&仙侠::https://www.69shu.org/fenlei/2_1/&&都市::https://www.69shu.org/fenlei/3_1/&&历史军事::https://www.69shu.org/fenlei/5_1/&&侦探推理::https://www.69shu.org/fenlei/8_1/&&网游动漫::https://www.69shu.org/fenlei/6_1/&&科幻小说::https://www.69shu.org/fenlei/7_1/",
-    "ruleFindList": "body > div.main > div > div:nth-child(2) > div.gengxin > div.news.section-cols > ul > li",
+    "ruleFindList": "body > div.padding > div > div > div:nth-child(2) > div.gengxin > div.news.section-cols > ul > li",
     "ruleFindBookName": "span.s2 > a@text",
     "ruleFindBookUrl": "span.s2 > a@href",
     "ruleFindBookAuthor": "span.s4@text",
