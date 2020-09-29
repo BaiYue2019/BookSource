@@ -1,5 +1,5 @@
 {
-"version": 12,
+"version": 13,
 "rules": [
 {
     "bookSourceName": "69书吧",
@@ -109,9 +109,9 @@
     "bookSourceName": "笔趣阁",
     "ruleEnable": 1,
     "bookSourceUrl": "https://www.xbiquge.cc/",
-    "ruleSearchUrl": "https://www.xbiquge.cc/modules/article/search.php?searchkey=searchKey&method=get&char=utf8",
+    "ruleSearchUrl": "https://www.xbiquge.cc/modules/article/search.php?searchkey=searchKey&method=get&char=gbk",
     "ruleSearchList": "div.search-list>ul li:gt(0)",
-    "ruleSearchEncoder": "utf8",
+    "ruleSearchEncoder": "gbk",
     "ruleDocumentEncoder": "utf8",
     "ruleSearchName": "span.s2 > a@text",
     "ruleSearchNoteUrl": "span.s2 > a@href",
