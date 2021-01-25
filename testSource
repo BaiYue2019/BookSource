@@ -8,7 +8,7 @@
     "bookSourceUrl": "https://www.69shu.org/",
 
     "ruleSearchUrl": "https://www.69shu.org/modules/article/search.php?searchkey=searchKey&method=get&char=gbk",
-    "ruleSearchList": "body > div.padding > div > table > tbody > tr:gt(0)",
+    "ruleSearchList": "body > div.padding > div > table tr:gt(0)",
     "ruleSearchEncoder": "gbk",
     "ruleSearchName": "td:nth-child(1) > a@text",
     "ruleSearchNoteUrl": "td:nth-child(1) > a@href",
