@@ -42,7 +42,7 @@
   "ruleEnable": 1,
   "bookSourceUrl": "https://www.siluke5.com/",
   "ruleSearchUrl": "https://www.siluke5.com/modules/article/search.php?searchkey=searchKey&method=get&char=gbk",
-  "ruleSearchList": "div.search-list>ul li:gt(0)",
+  "ruleSearchList": "#main > div.novelslistss > li:gt(0)",
   "ruleSearchEncoder": "utf8",
   "ruleDocumentEncoder": "utf8",
   "ruleSearchName": "span.s2 > a@text",
