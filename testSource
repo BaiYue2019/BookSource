@@ -1,4 +1,6 @@
-[
+{
+"version": "3",
+"rules": [
 {
     "bookSourceName": "69书吧",
     "ruleEnable": 1,
@@ -170,3 +172,4 @@
     "ruleFindNextUrl": "#pagelink > a.next@href"
     }
 ]
+}
