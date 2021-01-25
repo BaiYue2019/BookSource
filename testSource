@@ -75,7 +75,7 @@
   "bookSourceUrl": "https://www.44pq.cc/",
   "ruleEnable": 1,
   "ruleSearchUrl":"https://www.44pq.cc/modules/article/search.php?searchkey=searchKey&submit=%CB%D1%CB%F7&method=get&page=1&char=gbk",
-  "ruleSearchList": "#main > table > tbody > tr:gt(0)",
+  "ruleSearchList": "#main > table tr:gt(0)",
   "ruleSearchEncoder": "gbk",
   "ruleDocumentEncoder": "gbk",
   "ruleSearchName": "td:nth-child(1) > a@text",
