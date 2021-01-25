@@ -1,14 +1,14 @@
 {
-"version": 13,
+"version": 14,
 "rules": [
 {
     "bookSourceName": "69书吧",
     "ruleEnable": 1,
     "ruleDocumentEncoder": "utf8",
     "bookSourceUrl": "https://www.69shu.org/",
-    
+
     "ruleSearchUrl": "https://www.69shu.org/modules/article/search.php?searchkey=searchKey&method=get&char=gbk",
-    "ruleSearchList": "body > div:nth-child(3) > table > tbody > tr:gt(0)",
+    "ruleSearchList": "body > div.padding > div > table tr:gt(0)",
     "ruleSearchEncoder": "gbk",
     "ruleSearchName": "td:nth-child(1) > a@text",
     "ruleSearchNoteUrl": "td:nth-child(1) > a@href",
@@ -16,7 +16,7 @@
     "ruleSearchLastChapter": "td:nth-child(2) > a@text",
     "ruleSearchLastChapterTime": "td:nth-child(5)@text",
     "ruleBookUrlPattern": "https://www.69shu.org/book",
-    
+
     "ruleBookName": "#info > h1@text##.*(?= /)",
     "ruleBookAuthor": "#info > h1 > small > a@text",
     "ruleIntroduce": "#info > div.bookinfo_intro@text",
@@ -27,7 +27,7 @@
     "ruleChapterName": "a@text",
     "ruleChapterUrl": "a@href",
     "ruleBookContent": "#htmlContent",
-      
+
     "ruleFindUrl": "玄幻::https://www.69shu.org/fenlei/1_1/&&仙侠::https://www.69shu.org/fenlei/2_1/&&都市::https://www.69shu.org/fenlei/3_1/&&历史军事::https://www.69shu.org/fenlei/5_1/&&侦探推理::https://www.69shu.org/fenlei/8_1/&&网游动漫::https://www.69shu.org/fenlei/6_1/&&科幻小说::https://www.69shu.org/fenlei/7_1/",
     "ruleFindList": "body > div.padding > div > div > div:nth-child(2) > div.gengxin > div.news.section-cols > ul > li",
     "ruleFindBookName": "span.s2 > a@text",
@@ -42,7 +42,7 @@
   "ruleEnable": 1,
   "bookSourceUrl": "https://www.siluke5.com/",
   "ruleSearchUrl": "https://www.siluke5.com/modules/article/search.php?searchkey=searchKey&method=get&char=gbk",
-  "ruleSearchList": "div.search-list>ul li:gt(0)",
+  "ruleSearchList": "#main > div.novelslistss > li:gt(0)",
   "ruleSearchEncoder": "utf8",
   "ruleDocumentEncoder": "utf8",
   "ruleSearchName": "span.s2 > a@text",
@@ -50,7 +50,7 @@
   "ruleSearchAuthor": "span.s4@text",
   "ruleSearchLastChapter": "span.s3 > a@text",
   "ruleSearchLastChapterTime": "span.s6@text",
-  "ruleBookUrlPattern": "https://www.siluke5.com/book_",
+  "ruleBookUrlPattern": "https://www.siluke5.com/",
   "ruleIntroduce": "#intro@text",
   "ruleBookAuthor": "#info > p:nth-child(2)@text##(?<=：)[\\S\\s]+",
   "ruleCoverUrl": "#fmimg > img@src",
@@ -58,7 +58,7 @@
   "ruleBookLastChapter": "#info > p:nth-child(5) > a@text",
   "ruleChapterLastTime": "#info > p:nth-child(4)@text##(([0-9]{3}[1-9]|[0-9]{2}[1-9][0-9]{1}|[0-9]{1}[1-9][0-9]{2}|[1-9][0-9]{3})-([0-9]{2}|[0-9]{1})-([0-9]{2}|[0-9]{1})\\s([0-9]{2}|[0-9]{1}):([0-5][0-9]))",
   
-  "ruleChapterList": "#list > dl > dd!12",
+  "ruleChapterList": "#list > dl > dd",
   "ruleChapterName": "a@text",
   "ruleChapterUrl": "a@href",
   "ruleBookContent": "#content",
@@ -71,37 +71,36 @@
   "ruleFindBookLastChapterUpdate": "span.s5@text"
 },
 {
-  "bookSourceName": "风雨",
-  "bookSourceUrl": "https://www.44pq.cc",
+  "bookSourceName": "风雨小说网",
+  "bookSourceUrl": "https://www.44pq.cc/",
   "ruleEnable": 1,
-  "ruleSearchUrl":"https://www.44pq.cc/modules/article/search.php?searchkey=searchKey&s=12875153389361303253&method=get&page=1&char=gbk",
-  "ruleSearchList": "div.details div.item-pic",
+  "ruleSearchUrl":"https://www.44pq.cc/modules/article/search.php?searchkey=searchKey&submit=%CB%D1%CB%F7&method=get&page=1&char=gbk",
+  "ruleSearchList": "#main > table tr:gt(0)",
   "ruleSearchEncoder": "gbk",
   "ruleDocumentEncoder": "gbk",
-  "ruleSearchName": "h3 > a@text",
-  "ruleSearchNoteUrl": "h3 > a@href",
-  "ruleSearchAuthor": "p:eq(2)>i:eq(0)@text",
-  "ruleSearchCoverUrl": "a > img@src",
-  "ruleSearchLastChapter": "p:eq(3) > a@text",
-  "ruleSearchLastChapterTime": "p:eq(3) > i@text",
-  "ruleBookUrlPattern": "https://www.44pq.cc/kan",
-  "ruleIntroduce": "body > div.container > div.bookinfo > div.panel-intro > p@text",
-  "ruleBookAuthor": "body > div.container > div.bookinfo > div.panel-intro > div > span:nth-child(1) > a@text",
-  "ruleCoverUrl": "body > div.container > div.bookinfo > div.pic > img@src",
-  "ruleBookName": "body > div.container > div.bookinfo > div.panel-intro > h1@text",
-  "ruleBookLastChapter": "body > div.container > div.bookinfo > div.panel-intro > div > span:nth-child(3) > a@text",
-  "ruleChapterLastTime": "body > div.container > div.bookinfo > div.panel-intro > div > span:nth-child(3)@text##((([0-9]{3}[1-9]|[0-9]{2}[1-9][0-9]{1}|[0-9]{1}[1-9][0-9]{2}|[1-9][0-9]{3})-(((0[13578]|1[02])-(0[1-9]|[12][0-9]|3[01]))|((0[469]|11)-(0[1-9]|[12][0-9]|30))|(02-(0[1-9]|[1][0-9]|2[0-8]))))|((([0-9]{2})(0[48]|[2468][048]|[13579][26])|((0[48]|[2468][048]|[3579][26])00))-02-29))\\s([0-1][0-9]|2[0-3]|[0-9]):([0-5][0-9])",
-  "ruleChapterList": "body > div.container > div.main > div > dl dd",
+  "ruleSearchName": "td:nth-child(1) > a@text",
+  "ruleSearchNoteUrl": "td:nth-child(1) > a@href",
+  "ruleSearchAuthor": "td:nth-child(3)@text",
+  "ruleSearchLastChapter": "td:nth-child(2) > a@text",
+  "ruleSearchLastChapterTime": "td:nth-child(5)@text",
+  "ruleBookUrlPattern": "https://www.44pq.cc/",
+  "ruleIntroduce": "#intro@text",
+  "ruleBookAuthor": "#info > h1 > small > a@text",
+  "ruleCoverUrl": "#picbox > div > img@src",
+  "ruleBookName": "#info > h1@text##.*(?= /)",
+  "ruleBookLastChapter": "#info > div.update > a@text",
+  "ruleChapterLastTime": "#info > div.update@text##((([0-9]{3}[1-9]|[0-9]{2}[1-9][0-9]{1}|[0-9]{1}[1-9][0-9]{2}|[1-9][0-9]{3})-(((0[13578]|1[02])-(0[1-9]|[12][0-9]|3[01]))|((0[469]|11)-(0[1-9]|[12][0-9]|30))|(02-(0[1-9]|[1][0-9]|2[0-8]))))|((([0-9]{2})(0[48]|[2468][048]|[13579][26])|((0[48]|[2468][048]|[3579][26])00))-02-29))\\s([0-1][0-9]|2[0-3]|[0-9]):([0-5][0-9])",
+  "ruleChapterList": "body > div.zjbox > dl dd",
   "ruleChapterName": "a@text",
   "ruleChapterUrl": "a@href",
-  "ruleBookContent": "#BookText",
-  "ruleFindUrl": "最新入库::https://www.44pq.cc/postdate-1.html&&日点击榜::https://www.44pq.cc/dayvisit-1.html&&周点击榜::https://www.44pq.cc/weekvisit-1.html&&月点击榜::https://www.44pq.cc/monthvisit-1.html&&总点击榜::https://www.44pq.cc/allvisit-1.html&&玄幻小说::https://www.44pq.cc/list/1-1.html&&仙侠修真::https://www.44pq.cc/list/2-1.html&&都市言情::https://www.44pq.cc/list/3-1.html",
-  "ruleFindList": "body > div.container > div.content > div > div.details.list-type > ul > li",
-  "ruleFindBookName": "span.s2 > a@text",
-  "ruleFindBookUrl": "span.s2 > a@href",
-  "ruleFindBookAuthor": "span.s3@text",
-  "ruleFindBookLastChapterName": "span.s2 > i > a@text",
-  "ruleFindBookLastChapterUpdate": "span.s4@text",
+  "ruleBookContent": "#content",
+  "ruleFindUrl": "玄幻小说::https://www.44pq.cc/fenlei/1_1/&&仙侠小说::https://www.44pq.cc/fenlei/2_1/&&都市小说::https://www.44pq.cc/fenlei/3_1/&&历史小说::https://www.44pq.cc/fenlei/4_1/&&网游小说::https://www.44pq.cc/fenlei/5_1/&&科幻小说::https://www.44pq.cc/fenlei/6_1/&&完本小说::https://www.44pq.cc/quanben/&&热门小说::https://www.44pq.cc/top/monthvisit/",
+  "ruleFindList": "#tlist > ul > li",
+  "ruleFindBookName": "div.zp > a@text",
+  "ruleFindBookUrl": "div.zp > a@href",
+  "ruleFindBookAuthor": "div.author@text",
+  "ruleFindBookLastChapterName": "div.zz > aa@text",
+  "ruleFindBookLastChapterUpdate": "div.sj@text",
   "ruleFindNextUrl": "#pagelink > a.next@href"
 
 },
@@ -110,9 +109,9 @@
     "ruleEnable": 1,
     "bookSourceUrl": "https://www.xbiquge.cc/",
     "ruleSearchUrl": "https://www.xbiquge.cc/modules/article/search.php?searchkey=searchKey&method=get&char=gbk",
-    "ruleSearchList": "div.search-list>ul li:gt(0)",
+    "ruleSearchList": "#main > div.novelslistss > li:gt(0)",
     "ruleSearchEncoder": "gbk",
-    "ruleDocumentEncoder": "utf8",
+    "ruleDocumentEncoder": "gbk",
     "ruleSearchName": "span.s2 > a@text",
     "ruleSearchNoteUrl": "span.s2 > a@href",
     "ruleSearchAuthor": "span.s4@text",
@@ -125,7 +124,7 @@
     "ruleBookName": "#info > h1@text",
     "ruleBookLastChapter": "#info > p:nth-child(5) > a@text",
     "ruleChapterLastTime": "#info > p:nth-child(4)@text##([0-9]{3}[1-9]|[0-9]{2}[1-9][0-9]{1}|[0-9]{1}[1-9][0-9]{2}|[1-9][0-9]{3})-(((0[13578]|1[02])-(0[1-9]|[12][0-9]|3[01]))|((0[469]|11)-(0[1-9]|[12][0-9]|30))|(02-(0[1-9]|[1][0-9]|2[0-8])))\\s([0-9]{2}|[0-9]{1}):([0-5][0-9])",
-    "ruleChapterList": "#list > dl > dd",
+    "ruleChapterList": "#list > dl > dd!12",
     "ruleChapterName": "a@text",
     "ruleChapterUrl": "a@href",
     "ruleBookContent": "#content",
@@ -136,7 +135,7 @@
     "ruleFindBookAuthor": "span.s4@text",
     "ruleFindBookLastChapterName": "span.s3 > a@text",
     "ruleFindBookLastChapterUpdate": "span.s5@text"
- }, 
+ },
 {
     "bookSourceName": "88书屋",
     "ruleEnable": 1,
@@ -144,7 +143,7 @@
     "bookSourceUrl": "https://www.x88du.com/",
     "ruleSearchUrl": "https://www.x88du.com/modules/article/search.php?searchtype=articlename&searchkey=searchKey&method=get&char=gbk",
 
-    "ruleSearchList": "body > div.searchresult > table > tbody > tr:gt(0)",
+    "ruleSearchList": "body > div.searchresult > table tr:gt(0)",
     "ruleSearchEncoder": "gbk",
     "ruleSearchName": "td:nth-child(1) > a@text",
     "ruleSearchNoteUrl": "td:nth-child(1) > a@href",
@@ -171,6 +170,6 @@
     "ruleFindBookAuthor": "span.zz@text",
     "ruleFindBookLastChapterName": "span.zj > a@text",
     "ruleFindNextUrl": "#pagelink > a.next@href"
-   }
+    }
 ]
 }
