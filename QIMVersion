@@ -14,8 +14,8 @@
     "show": 0,
     "forceUpdate": 0
   },
-  "openADshow": 0,
+  "openADshow": 1,
   "rewardedAdshow": 1,
-  "attAltershow": 1,
+  "attAltershow": 0,
   "attmsg": "跪求您允许为本软件打开数据跟踪功能(如果您已拒绝可以在设置-隐私->跟踪->开启本软件权限)🥰,开启该功能不会收集您的个人数据，通过广告收入能为作者带来一点点安慰🥰"
 }
