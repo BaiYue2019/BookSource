@@ -2,6 +2,30 @@
 "version": 15,
 "rules": [
 {
+    "bookSourceName": "读书阁",
+    "ruleEnable": 1,
+    "ruleDocumentEncoder":"utf8",
+    "bookSourceUrl":"http://www.dushuge.com/",
+    "ruleSearchUrl":"http://www.dushuge.com/sodushuge.php?ie=gbk&q=searchKey&method=get&char=gbk",
+    "ruleSearchList": "body > div.wrap > div > div div.p10",
+    "ruleSearchEncoder": "utf8",
+    "ruleSearchName": "div.bookinfo > h4 > a@text",
+    "ruleSearchNoteUrl": "div.bookinfo > h4 > a@href",
+    "ruleSearchAuthor": "div.bookinfo > div.author@text",
+    "ruleSearchLastChapter": "div.bookinfo > div.update > a@text",
+    "ruleBookUrlPattern": "http://www.dushuge.com/",
+    
+    "ruleBookName": "#info > h1@text##.*(?= /)",
+    "ruleBookAuthor": "#info > p:nth-child(4)@text##(?<=：)[\\S\\s]+",
+    "ruleIntroduce": "#intro > p:nth-child(1)@text",
+    "ruleCoverUrl": "#fmimg > img@src",
+
+    "ruleChapterList": "body > div.listmain > dl dd",
+    "ruleChapterName": "a@text",
+    "ruleChapterUrl": "a@href",
+    "ruleBookContent": "#content"
+    },
+{
     "bookSourceName": "69书吧",
     "ruleEnable": 1,
     "ruleDocumentEncoder": "utf8",
